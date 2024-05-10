@@ -1,0 +1,29 @@
+name: Sync Notion
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js 18.x
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18.x
+        cache: 'npm'
+    - run: rm -rf content/posts/*
+    - run: npm install
+    - run: npm start
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+          commit_message: "chore: Sync Notion"
