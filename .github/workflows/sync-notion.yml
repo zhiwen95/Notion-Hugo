@@ -24,6 +24,8 @@ jobs:
     - run: rm -rf content/posts/*
     - run: npm install
     - run: npm start
+      env:
+         NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
           commit_message: "chore: Sync Notion"
