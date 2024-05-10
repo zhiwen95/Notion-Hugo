@@ -21,7 +21,7 @@ jobs:
       with:
         node-version: 18.x
         cache: 'npm'
-    - run: rm -rf content/posts/*
+    - run: find ./content -name "*.md" | xargs rm -f
     - run: npm install
     - run: npm start
       env:
