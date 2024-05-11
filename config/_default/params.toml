@@ -19,3 +19,11 @@ envId = "https://twikoo.bububu.cc/"
 path = ""
 region = ""
 visitor = true
+
+[analytics]
+enable = true
+# Google Analytics
+[analytics.google]
+id = "G-2XHX6DL38C"
+# 是否匿名化用户 IP
+anonymizeIP = true
