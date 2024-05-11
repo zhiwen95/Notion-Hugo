@@ -2,14 +2,3 @@ baseURL = "https://www.bububu.cc/"
 languageCode = "zh-CN"
 title = "不不不"
 theme = "DoIt"
-
-[params.page.comment]
-enable = true
-# Twikoo comment 评论系统设置 (https://twikoo.js.org/)
-[params.page.comment.twikoo]
-commentCount = true
-enable = true
-envId = "https://twikoo.bububu.cc/"
-path = ""
-region = ""
-visitor = true

@@ -8,3 +8,14 @@ inlineLeftDelimiter = "\\("
 inlineRightDelimiter = "\\)"
 copyTex = true
 mhchem = true
+
+[page.comment]
+enable = true
+# Twikoo comment 评论系统设置 (https://twikoo.js.org/)
+[page.comment.twikoo]
+commentCount = true
+enable = true
+envId = "https://twikoo.bububu.cc/"
+path = ""
+region = ""
+visitor = true
