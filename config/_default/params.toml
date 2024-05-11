@@ -30,5 +30,16 @@ anonymizeIP = true
 
 # DoIt 新增 | 0.2.0 代码配置
 [page.code]
+# 是否显示代码块的复制按钮
+copy = true
 # 默认展开显示的代码行数
 maxShownLines = 999999
+
+# DoIt 新增 | 0.2.0 目录配置
+[page.toc]
+# 是否使用目录
+enable = true
+# DoIt 新增 | 0.2.9 是否保持使用文章前面的静态目录
+keepStatic = true
+# 是否使侧边目录自动折叠展开
+auto = true
