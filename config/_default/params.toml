@@ -27,3 +27,8 @@ enable = true
 id = "G-2XHX6DL38C"
 # 是否匿名化用户 IP
 anonymizeIP = true
+
+# DoIt 新增 | 0.2.0 代码配置
+[page.code]
+# 默认展开显示的代码行数
+maxShownLines = 999999
