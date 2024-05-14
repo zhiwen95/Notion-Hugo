@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.bububu.cc/sitemap.xml
+Sitemap: https://blog.bububu.cc/sitemap.xml
