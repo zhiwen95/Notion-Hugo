@@ -1,6 +1,6 @@
 baseURL = "https://www.bububu.cc/"
-languageCode = "zh-CN"
-title = "不不不"
+languageCode = "zh-Hans"
+title = "阿拉喵的空间"
 theme = "DoIt"
 
 defaultContentLanguage = "zh-cn"
